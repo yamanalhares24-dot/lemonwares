@@ -119,12 +119,17 @@ input:checked+.slider:before {
     background-color: black;
 }
 
-.basic {
+.basic1,
+.basic2 {
     border-bottom: 2px solid rgba(196, 196, 196, 1);
 }
 
-.basic:hover {
-    border-bottom: 8px solid rgba(176, 0, 0, 1);
+.basic1:hover {
+    border-bottom: 4px solid rgba(176, 0, 0, 1);
+}
+
+.basic2:hover {
+    border-bottom: 4px solid rgba(176, 0, 0, 1);
 }
 
 .gridle-right-second:hover {
@@ -137,4 +142,8 @@ input:checked+.slider:before {
 
 .gridle-left-boder:hover {
     box-shadow: 8px 10px 20px 8px rgba(41, 41, 42, 0.07);
+}
+
+.bgasd {
+    flex-flow: nowrap;
 }

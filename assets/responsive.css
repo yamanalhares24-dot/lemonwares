@@ -1,7 +1,20 @@
 @media (max-width: 550px) {
+    .father {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    body {
+        height: 100vh;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .sliderd {}
+
     header {
-        min-height: 100vh;
-        min-width: 100vw;
+        width: 100% !important;
+        /* margin-left: 28px !important; */
     }
 
     .first-p p {
@@ -15,8 +28,26 @@
 
     }
 
-    .hero-right img {
-        /* display: none; */
+    .man-left1 {
+        top: 230px !important;
+    }
+
+    .man-right2 {
+        top: 310px !important;
+    }
+
+    .man {
+        /* margin-right: 10px !important; */
+        width: 345px !important;
+        margin-top: 20px !important;
+    }
+
+    .p-lemon {
+        font-size: 40px !important;
+    }
+
+    .slider {
+        /* margin-left: 28px !important; */
     }
 
     .navbar img {
@@ -73,7 +104,21 @@
     }
 
     .second-section-p {
-        padding-top: 100px !important;
+        padding-top: 10px !important;
+    }
+
+    .switches {
+        padding: 0px !important;
+        padding-left: 20px !important;
+    }
+
+    .switch {
+        height: 45px !important;
+        width: 61px !important;
+    }
+
+    .monthly {
+        padding-right: 0px !important;
     }
 
     .ttt {
@@ -81,16 +126,21 @@
     }
 
     .starter {
-        margin-left: 20px;
-        height: 870px !important;
+        margin-left: 17px;
+        height: 885px !important;
     }
 
     .left-gridle {
-        margin-left: -113px !important;
+        /* margin-left: -113px !important; */
     }
 
     .gridle-left-boder {
         margin-left: 0 !important;
+    }
+
+    .gridle {
+        /* justify-items: start !important; */
+        margin-left: 17px !important;
     }
 
     .right-gridle {
@@ -100,6 +150,52 @@
 
     .gridle-right-first,
     .gridle-right-second {
-        margin-left: -113px !important;
+        /* margin-left: -113px !important; */
     }
+
+    .gridle-row {
+        margin-left: 0 !important;
+        /* max-width: 357px !important; */
+    }
+
+    .gridle-row img {
+        margin-left: 0 !important;
+    }
+
+    .gridle-row p {
+        margin-left: 0 !important;
+    }
+
+    .p1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+
+    .basic {
+        margin-right: 12px !important;
+    }
+
+    .salary {
+        margin-left: 20px !important;
+    }
+
+    .basic1 {
+        max-width: 100px;
+    }
+
+    .basic2 {
+        max-width: 150px;
+        margin-left: -26px !important;
+    }
+
+    .first-section {
+        /* margin-left: 28px !important; */
+    }
+
+    .hero {
+        padding-top: 20px;
+        padding-left: 37px;
+    }
+
+
 }
