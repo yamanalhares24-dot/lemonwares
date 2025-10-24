@@ -18,6 +18,36 @@ img {
     }
 }
 
+.salary {
+    padding: 50px 0;
+}
+
+.plan-content {
+    border: 2px solid rgba(196, 196, 196, 1);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.plan-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.feature img {
+    width: 16px;
+    height: 16px;
+}
+
+
 .switch {
     position: relative;
     display: inline-block;
@@ -25,14 +55,12 @@ img {
     height: 34px;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-/* The slider */
 .slider {
     position: absolute;
     cursor: pointer;
@@ -71,7 +99,6 @@ input:checked+.slider:before {
     transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
     height: 30px;
     top: 10px;
@@ -142,4 +169,33 @@ input:checked+.slider:before {
 
 .gridle-left-boder:hover {
     box-shadow: 8px 10px 20px 8px rgba(41, 41, 42, 0.07);
+}
+
+.gridle {
+    margin: 0 auto !important;
+    padding: 0 15px;
+}
+
+.gridle-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1015px;
+    margin: 0 auto;
+}
+
+.left-gridle,
+.right-gridle {
+    flex: 1 1 48%;
+    max-width: 500px;
+}
+
+
+
+.gridle-right-first,
+.gridle-right-second,
+.gridle-left-boder {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }

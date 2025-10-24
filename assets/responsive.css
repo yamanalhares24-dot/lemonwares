@@ -7,14 +7,16 @@
     body {
         height: 100vh;
         max-width: 100vw;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .sliderd {}
 
     header {
         width: 100% !important;
-        margin-left: 28px !important;
+        margin: 0 auto !important;
+        /* توسيط بدون تجاوز العرض */
+        padding: 0 15px;
     }
 
     .first-p p {
@@ -83,6 +85,14 @@
 
     }
 
+    .feature {
+        margin-left: 55px !important;
+    }
+
+    .last-section {
+        padding-top: 400px !important;
+    }
+
     .navbar-toggler {
         border: none;
     }
@@ -90,6 +100,38 @@
     .navbar-toggler-icon {
         width: 25px;
         height: 25px;
+    }
+
+    .whatsappp {
+        padding-left: 0px !important;
+    }
+
+    .lastest {
+        text-align: center;
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+
+    }
+
+    .lastest p {
+        font-size: 36px !important;
+    }
+
+    .lastest .man-right2 {
+        right: -17px !important;
+    }
+
+    .lastest button {
+        /* margin-right: 97px !important; */
+    }
+
+    .lastest .man-left1 {
+        left: 30px !important;
+    }
+
+    .lastest .man-right1 {
+        left: 210px !important;
     }
 
 
@@ -114,7 +156,7 @@
 
     .switch {
         height: 45px !important;
-        width: 61px !important;
+        width: 87px !important;
     }
 
     .monthly {
@@ -125,45 +167,28 @@
         margin: 0 !important;
     }
 
-    .starter {
-        margin-left: 17px;
-        height: 885px !important;
+    .salary .col-lg-4 {
+        max-width: 100%;
     }
 
-    .left-gridle {
-        margin-left: -113px !important;
+    .salary .plan-content {
+        width: 100%;
     }
 
-    .gridle-left-boder {
-        margin-left: 0 !important;
+    .gridle .p1 {
+        font-size: 32px !important;
+        text-align: center;
     }
 
-    .gridle {
-        justify-items: start !important;
-        margin-left: 17px !important;
+    .gridle .p2 {
+        text-align: center;
     }
 
-    .right-gridle {
-        margin-left: 0 !important;
-
-    }
-
+    .gridle-left-boder,
     .gridle-right-first,
     .gridle-right-second {
-        margin-left: -113px !important;
-    }
-
-    .gridle-row {
-        margin-left: 0 !important;
-        max-width: 357px !important;
-    }
-
-    .gridle-row img {
-        margin-left: 0 !important;
-    }
-
-    .gridle-row p {
-        margin-left: 0 !important;
+        max-width: 90% !important;
+        margin: 20px auto !important;
     }
 
     .p1 {
@@ -196,6 +221,4 @@
         padding-top: 20px;
         padding-left: 37px;
     }
-
-
 }
