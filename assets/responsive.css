@@ -14,7 +14,7 @@
 
     header {
         width: 100% !important;
-        /* margin-left: 28px !important; */
+        margin-left: 28px !important;
     }
 
     .first-p p {
@@ -37,7 +37,7 @@
     }
 
     .man {
-        /* margin-right: 10px !important; */
+        margin-right: 10px !important;
         width: 345px !important;
         margin-top: 20px !important;
     }
@@ -47,13 +47,13 @@
     }
 
     .slider {
-        /* margin-left: 28px !important; */
+        margin-left: 28px !important;
     }
 
     .navbar img {
         width: 80px;
         height: 35px;
-        /* padding-right: 20px; */
+        padding-right: 20px;
     }
 
     .navbar-nav .nav-link {
@@ -131,7 +131,7 @@
     }
 
     .left-gridle {
-        /* margin-left: -113px !important; */
+        margin-left: -113px !important;
     }
 
     .gridle-left-boder {
@@ -139,7 +139,7 @@
     }
 
     .gridle {
-        /* justify-items: start !important; */
+        justify-items: start !important;
         margin-left: 17px !important;
     }
 
@@ -150,12 +150,12 @@
 
     .gridle-right-first,
     .gridle-right-second {
-        /* margin-left: -113px !important; */
+        margin-left: -113px !important;
     }
 
     .gridle-row {
         margin-left: 0 !important;
-        /* max-width: 357px !important; */
+        max-width: 357px !important;
     }
 
     .gridle-row img {
@@ -189,7 +189,7 @@
     }
 
     .first-section {
-        /* margin-left: 28px !important; */
+        margin-left: 28px !important;
     }
 
     .hero {
