@@ -1,4 +1,67 @@
-@media (max-width: 550px) {
+@media(max-width:440px) {
+    body {
+        padding-top: 15px !important;
+    }
+
+    .basic-perm {
+        margin-left: 0px !important;
+        padding-left: 15px !important;
+    }
+
+    header {
+        padding-left: 44px !important;
+    }
+
+    .hero-left button {
+        max-width: 160px !important;
+    }
+
+    .hero {
+        padding-top: 15px !important;
+    }
+
+    .last-section {
+        padding-left: 20px !important;
+    }
+
+    .last-section .p1 {
+        padding-top: 80px !important;
+    }
+
+    .last-section img {
+        max-width: 38%;
+    }
+
+    .first-section img {
+        max-width: 38%;
+    }
+
+    .man {
+        max-width: 312px !important;
+    }
+
+    .hero button {
+        max-width: 60px;
+    }
+
+    .monthly-year {
+        gap: 0px !important;
+    }
+
+    .whatsappp {
+        max-width: 390px !important;
+    }
+
+    .hero {
+        padding-left: 0 !important;
+    }
+
+    /* .container {
+        max-width: 445px;
+    } */
+}
+
+@media (max-width: 800px) {
     .father {
         padding-left: 0 !important;
         padding-right: 0 !important;
